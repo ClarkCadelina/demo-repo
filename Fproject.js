@@ -1,9 +1,9 @@
-// Modifying array using .unshift() method (add something in the [0]FIRST data)
-// Setup
-const myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
+//Return a Value from a Function with Return
+function timesFive(num) {
+  console.log(num * 5)
+}
 
-// Only change code below this line
-myArray.unshift(["Paul", 35]);
-
+timesFive(5);
+timesFive(2);
+timesFive(0);
 
